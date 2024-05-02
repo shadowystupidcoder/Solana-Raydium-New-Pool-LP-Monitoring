@@ -4,7 +4,7 @@ import { u8, struct, NearUInt64 } from "@solana/buffer-layout"
 import { u64, publicKey } from "@solana/buffer-layout-utils"
 import * as spl from "@solana/spl-token"
 import BN from 'bn.js'
-const connection = new Connection("https://convincing-crimson-mountain.solana-mainnet.quiknode.pro/6192efb0bbf8f7dfc967fe5e4dc/")
+const connection = new Connection("https://convincing-crimson-mountain.solana-mainnet.quiknode.pro/6192efb0bbf8f7dfc1966cb92b88a7967fe5e4dc/")
 const ray = new PublicKey('675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8')
 export async function getKeys(marketId, baseDecimals, quoteDecimals) {
 async function getMarketInfo(marketId) {
